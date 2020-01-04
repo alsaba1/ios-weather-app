@@ -48,7 +48,6 @@
 				FCC148D1085BCDF706EF11AE /* Pods-iOS-weather-app.debug.xcconfig */,
 				35ECC5DD24D45C7BC6CBAA0C /* Pods-iOS-weather-app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,15 +72,39 @@
 		87532DF123C03AC200D0E965 /* iOS-weather-app */ = {
 			isa = PBXGroup;
 			children = (
+				87532E0823C03F0700D0E965 /* Model */,
 				87532DF223C03AC200D0E965 /* AppDelegate.swift */,
 				87532DF423C03AC200D0E965 /* SceneDelegate.swift */,
-				87532DF623C03AC200D0E965 /* ViewController.swift */,
-				87532DF823C03AC200D0E965 /* Main.storyboard */,
+				87532E0623C03EDB00D0E965 /* Controller */,
+				87532E0723C03EEA00D0E965 /* View */,
 				87532DFB23C03AC400D0E965 /* Assets.xcassets */,
 				87532DFD23C03AC400D0E965 /* LaunchScreen.storyboard */,
 				87532E0023C03AC400D0E965 /* Info.plist */,
 			);
 			path = "iOS-weather-app";
+			sourceTree = "<group>";
+		};
+		87532E0623C03EDB00D0E965 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87532DF623C03AC200D0E965 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		87532E0723C03EEA00D0E965 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87532DF823C03AC200D0E965 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87532E0823C03F0700D0E965 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A4DF2D90052A31BF4A342F2B /* Frameworks */ = {
